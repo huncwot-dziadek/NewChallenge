@@ -1,6 +1,6 @@
 ﻿using System;
 
-var number = "72723339";
+var number = "247767382934782910002382";
 
 var decimalDigits = "0123456789";
 
@@ -28,4 +28,14 @@ foreach (int digit in listOfDecimalDigits)
     Console.WriteLine($"{listOfDecimalDigits[digit]}  =>  {numberOfRepetitionsDigit[digit]}");
 }
 
+class User
+{
+    private string login;
+    private string password;
+    private string name;
 
+    User() 
+    { 
+
+    }
+}
